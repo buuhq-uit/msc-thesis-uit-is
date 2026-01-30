@@ -1,0 +1,29 @@
+# --- Backend (Spring Boot / Maven)
+source-code/backend/target/
+source-code/backend/**/target/
+source-code/backend/.idea/
+source-code/backend/**/.idea/
+source-code/backend/.mvn/
+source-code/backend/*.iml
+
+# --- Frontend (Next.js)
+source-code/frontend/node_modules/
+source-code/frontend/.next/
+source-code/frontend/out/
+source-code/frontend/.turbo/
+source-code/frontend/.swc/
+source-code/frontend/.vercel/
+source-code/frontend/.env.local
+source-code/frontend/.env.*
+
+# --- AI Models (FastAPI / Python)
+source-code/ai-models/.venv/
+source-code/ai-models/__pycache__/
+source-code/ai-models/**/*.pyc
+source-code/ai-models/.pytest_cache/
+source-code/ai-models/.mypy_cache/
+
+# --- Common
+.env
+.env.*
+*.log
