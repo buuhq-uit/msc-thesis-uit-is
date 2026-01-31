@@ -1,0 +1,7 @@
+server:
+  port: 9091
+
+jwt:
+  secret: super-secret-jwt-key-super-secret-jwt-key
+  issuer: thesis.backend
+  expiration-in-ms: 86400000

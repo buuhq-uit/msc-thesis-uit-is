@@ -1,10 +1,18 @@
 # --- Backend (Spring Boot / Maven)
-source-code/backend/target/
-source-code/backend/**/target/
 source-code/backend/.idea/
 source-code/backend/**/.idea/
 source-code/backend/.mvn/
+source-code/backend/**/.mvn/
 source-code/backend/*.iml
+source-code/backend/**/*.iml
+source-code/backend/**/.classpath
+source-code/backend/**/.project
+source-code/backend/**/.settings/
+source-code/backend/target/
+source-code/backend/**/target/
+source-code/backend/modules/**/target/
+source-code/backend/services/**/target/
+source-code/backend/tests/**/target/
 
 # --- Frontend (Next.js)
 source-code/frontend/node_modules/
