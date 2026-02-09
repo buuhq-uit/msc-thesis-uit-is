@@ -1,3 +1,4 @@
+/*
 package dpl.be.domain.entity;
 import dpl.be.common.enums.RoleName;
 import jakarta.persistence.*;
@@ -19,3 +20,4 @@ public class Role {
     @Enumerated(EnumType.STRING)
     private RoleName name;
 }
+*/

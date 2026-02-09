@@ -1,3 +1,4 @@
+/*
 package dpl.be.domain.entity;
 
 import jakarta.persistence.*;
@@ -31,3 +32,5 @@ public class User {
     @Column(nullable = false)
     private boolean enabled = true;
 }
+
+ */

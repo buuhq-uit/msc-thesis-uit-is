@@ -1,8 +1,8 @@
-package dpl.be.application.config;
+package dpl.be.infrastructure.http;
 
 
-import dpl.be.application.interceptor.HttpClientHeaderInterceptor;
-import dpl.be.application.interceptor.HttpClientLoggingInterceptor;
+import dpl.be.infrastructure.http.interceptor.HttpClientHeaderInterceptor;
+import dpl.be.infrastructure.http.interceptor.HttpClientLoggingInterceptor;
 import org.apache.hc.client5.http.config.ConnectionConfig;
 import org.apache.hc.client5.http.config.RequestConfig;
 import org.apache.hc.client5.http.impl.classic.CloseableHttpClient;

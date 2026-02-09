@@ -1,4 +1,4 @@
-package dpl.be.application.interceptor;
+package dpl.be.infrastructure.http.interceptor;
 
 import org.springframework.http.HttpRequest;
 import org.springframework.http.MediaType;

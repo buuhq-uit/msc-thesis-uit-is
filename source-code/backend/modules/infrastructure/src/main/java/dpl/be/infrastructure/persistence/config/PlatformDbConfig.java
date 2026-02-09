@@ -1,4 +1,4 @@
-package dpl.be.application.config;
+package dpl.be.infrastructure.persistence.config;
 
 import jakarta.persistence.EntityManagerFactory;
 import lombok.extern.slf4j.Slf4j;

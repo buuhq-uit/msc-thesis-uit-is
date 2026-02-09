@@ -1,4 +1,4 @@
-package dpl.be.application.config;
+package dpl.be.process.config;
 
 import org.flowable.engine.*;
 import org.flowable.spring.ProcessEngineFactoryBean;

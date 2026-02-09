@@ -1,4 +1,4 @@
-package dpl.be.application.interceptor;
+package dpl.be.infrastructure.http.interceptor;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpRequest;
