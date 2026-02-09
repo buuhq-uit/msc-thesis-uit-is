@@ -1,63 +1,12 @@
 # buuhq: msc thesis uit-is
+# Author: BuuHQ
+# Date: Jan 2026
 
-```text
-<plugin>
-                    <groupId>org.springframework.boot</groupId>
-                    <artifactId>spring-boot-maven-plugin</artifactId>
-                    <version>${spring.boot.version}</version>
-                    <configuration>
-                        <excludes>
-                            <exclude>
-                                <groupId>org.projectlombok</groupId>
-                                <artifactId>lombok</artifactId>
-                            </exclude>
-                        </excludes>
-                    </configuration>
-                </plugin>
-                
-  <!-- Maven Compiler Plugin -->
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-compiler-plugin</artifactId>
-                    <version>${maven-compiler-plugin.version}</version>
-                    <configuration>
-                        <source>${java.version}</source>
-                        <target>${java.version}</target>
-                        <compilerArgs>
-                            <arg>-parameters</arg>
-                        </compilerArgs>
-                        <annotationProcessorPaths>
-                            <!-- MapStruct -->
-                            <path>
-                                <groupId>org.mapstruct</groupId>
-                                <artifactId>mapstruct-processor</artifactId>
-                                <version>${mapstruct.version}</version>
-                            </path>
-                            <!-- Lombok (optional for annotation processing in IDE) -->
-                            <path>
-                                <groupId>org.projectlombok</groupId>
-                                <artifactId>lombok</artifactId>
-                                <version>${lombok.version}</version>
-                            </path>
-                        </annotationProcessorPaths>
-                    </configuration>
-                </plugin>
-```
+# DESIGN AND EVALUATION OF A BUSINESS PROCESS DIGITALIZATION PLATFORM BASE ON PROCESS ENGINE, RULE ENGINE, AND AI-SUPPORTED BUSINESS RULE RECOMMENDATION
 
-```text
-<plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-            </plugin>
-        </plugins>
-```
+# Stack:
+## - Backend: Java Spring Boot, Flowable BPM, Drools Rule Engine, Python Flask for AI services
+## - Frontend: Next.js, React, Tailwind CSS
+## - AI/ML: Python, TensorFlow, scikit-learn
+## - Database: PostgreSQL, MongoDB
+## - DevOps: Docker, Kubernetes, Jenkins, GitLab CI/CD
