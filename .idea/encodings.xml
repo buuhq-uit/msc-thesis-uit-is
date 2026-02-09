@@ -17,6 +17,8 @@
     <file url="file://$PROJECT_DIR$/source-code/backend/modules/application/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/source-code/backend/modules/common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/source-code/backend/modules/common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/source-code/backend/modules/core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/source-code/backend/modules/core/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/source-code/backend/modules/domain/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/source-code/backend/modules/domain/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/source-code/backend/modules/infrastructure/src/main/java" charset="UTF-8" />

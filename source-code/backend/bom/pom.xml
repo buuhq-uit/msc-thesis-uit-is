@@ -24,6 +24,8 @@
 
     <dependencyManagement>
         <dependencies>
+
+
             <dependency>
                 <groupId>io.jsonwebtoken</groupId>
                 <artifactId>jjwt-api</artifactId>
@@ -58,12 +60,36 @@
                 <version>${liquibase.version}</version>
             </dependency>
 
-
-            <!-- Source: https://mvnrepository.com/artifact/org.flowable/flowable-spring -->
+            <!-- Flowable Process Engine Core -->
             <dependency>
                 <groupId>org.flowable</groupId>
                 <artifactId>flowable-spring</artifactId>
-                <version>6.8.1</version>
+                <version>6.8.1.36</version>
+            </dependency>
+            <!-- Source: https://mvnrepository.com/artifact/org.flowable/flowable-spring -->
+<!--            <dependency>-->
+<!--                <groupId>org.flowable</groupId>-->
+<!--                <artifactId>flowable-spring</artifactId>-->
+<!--                <version>6.8.1</version>-->
+<!--            </dependency>-->
+
+
+            <!-- https://mvnrepository.com/artifact/org.liquibase/liquibase-core -->
+            <dependency>
+                <groupId>org.liquibase</groupId>
+                <artifactId>liquibase-core</artifactId>
+                <version>${liquibase.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.httpcomponents.client5</groupId>
+                <artifactId>httpclient5</artifactId>
+                <version>5.5</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.httpcomponents.core5</groupId>
+                <artifactId>httpcore5</artifactId>
+                <version>5.3.4</version> <!-- Use the latest stable version -->
             </dependency>
         </dependencies>
     </dependencyManagement>

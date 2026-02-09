@@ -1,8 +1,12 @@
 # --- Backend (Spring Boot / Maven)
 source-code/backend/.idea/
 source-code/backend/**/.idea/
-source-code/backend/.mvn/
-source-code/backend/**/.mvn/
+#source-code/backend/.mvn/
+#source-code/backend/**/.mvn/
+
+source-code/backend/.mvn/wrapper/maven-wrapper.jar
+source-code/backend/**/.mvn/wrapper/maven-wrapper.jar
+
 source-code/backend/*.iml
 source-code/backend/**/*.iml
 source-code/backend/**/.classpath
