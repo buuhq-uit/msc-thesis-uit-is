@@ -10,3 +10,9 @@
 ## - AI/ML: Python, TensorFlow, scikit-learn
 ## - Database: PostgreSQL, MongoDB
 ## - DevOps: Docker, Kubernetes, Jenkins, GitLab CI/CD
+
+# Backend Architecture:
+
+```text
+
+```

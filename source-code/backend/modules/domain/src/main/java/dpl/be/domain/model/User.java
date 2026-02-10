@@ -1,30 +1,53 @@
 package dpl.be.domain.model;
 
-import dpl.be.domain.vo.UserId;
-import lombok.EqualsAndHashCode;
+import dpl.be.domain.vo.AuthType;
+import dpl.be.domain.vo.PasswordHash;
+import dpl.be.domain.vo.RoleName;
 import lombok.Getter;
 
 import java.util.HashSet;
 import java.util.Set;
+import java.util.UUID;
 
 @Getter
-@EqualsAndHashCode(onlyExplicitlyIncluded = true)
 public class User {
-    @EqualsAndHashCode.Include
-    private final UserId id;
-
+    private final UUID id;
     private final Set<Role> roles = new HashSet<>();
 
-    public User(UserId id) {
+    private boolean enabled;
+    private final AuthType authType;
+    private PasswordHash password;
+
+    public User(UUID id, AuthType authType) {
         this.id = id;
+        this.authType = authType;
+        this.enabled = true;
     }
 
-    // Business behavior
-    public void assignRole(Role role) {
-        roles.add(role);
+    // ===== Business behavior =====
+
+    public void assignRole(RoleName roleName) {
+        roles.add(new Role(roleName));
     }
 
-    public void revokeRole(Role role) {
-        roles.remove(role);
+    public void revokeRole(RoleName roleName) {
+        roles.removeIf(r -> r.getName() == roleName);
+    }
+
+    public boolean hasRole(RoleName roleName) {
+        return roles.stream().anyMatch(r -> r.getName() == roleName);
+    }
+
+    public void changePassword(PasswordHash passwordHash) {
+        if (authType != AuthType.LOCAL) {
+            throw new IllegalStateException(
+                    "Cannot change password for non-local user"
+            );
+        }
+        this.password = passwordHash;
+    }
+
+    public void disable() {
+        this.enabled = false;
     }
 }

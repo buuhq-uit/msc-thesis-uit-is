@@ -9,16 +9,17 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
-        <module>services/api</module>
         <module>bom</module>
         <module>modules/domain</module>
         <module>modules/application</module>
         <module>modules/infrastructure</module>
         <module>tests/integration-tests</module>
-        <module>services/api-app</module>
         <module>modules/process-engine</module>
         <module>modules/rule-engine</module>
-        <module>modules/common</module>
+
+        <module>modules/shared</module>
+        <module>services/rest-api</module>
+        <module>services/rest-api-app</module>
 
     </modules>
 

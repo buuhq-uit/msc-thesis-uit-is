@@ -9,7 +9,10 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/source-code/backend/modules/common/pom.xml" />
         <option value="$PROJECT_DIR$/source-code/backend/modules/core/pom.xml" />
+        <option value="$PROJECT_DIR$/source-code/backend/services/api-app/pom.xml" />
+        <option value="$PROJECT_DIR$/source-code/backend/services/api/pom.xml" />
       </set>
     </option>
   </component>

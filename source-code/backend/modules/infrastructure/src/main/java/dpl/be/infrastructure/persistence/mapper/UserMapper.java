@@ -1,39 +1,38 @@
 package dpl.be.infrastructure.persistence.mapper;
 
-import dpl.be.domain.model.Role;
 import dpl.be.domain.model.User;
-import dpl.be.domain.vo.RoleName;
-import dpl.be.domain.vo.UserId;
-import dpl.be.infrastructure.persistence.entity.RoleJpaEntity;
+import dpl.be.domain.vo.PasswordHash;
 import dpl.be.infrastructure.persistence.entity.UserJpaEntity;
+import org.mapstruct.AfterMapping;
+import org.mapstruct.Mapper;
+import org.mapstruct.Mapping;
+import org.mapstruct.MappingTarget;
 
-import java.util.stream.Collectors;
 
-public class UserMapper {
-    public static UserJpaEntity toJpa(User user) {
-        UserJpaEntity entity = new UserJpaEntity();
-        entity.setId(user.getId().value());
+@Mapper(
+        componentModel = "spring",
+        uses = RoleMapper.class
+)
+public interface UserMapper {
+    @Mapping(target = "authType", expression = "java(AuthType.valueOf(entity.getAuthType()))")
+    @Mapping(target = "password", ignore = true)
+    User toDomain(UserJpaEntity entity);
 
-        entity.setRoles(
-                user.getRoles().stream()
-                        .map(role -> {
-                            RoleJpaEntity r = new RoleJpaEntity();
-                            r.setName(role.getName().value());
-                            return r;
-                        })
-                        .collect(Collectors.toSet())
-        );
+    @Mapping(target = "authType", source = "authType")
+    @Mapping(target = "password", ignore = true)
+    UserJpaEntity toJpa(User domain);
 
-        return entity;
+    @AfterMapping
+    default void mapPassword(UserJpaEntity entity, @MappingTarget User user) {
+        if (entity.getPassword() != null) {
+            user.changePassword(new PasswordHash(entity.getPassword()));
+        }
     }
 
-    public static User toDomain(UserJpaEntity entity) {
-        User user = new User(new UserId(entity.getId()));
-
-        entity.getRoles().forEach(
-                r -> user.assignRole(new Role(new RoleName(r.getName())))
-        );
-
-        return user;
+    @AfterMapping
+    default void mapPassword(User domain, @MappingTarget UserJpaEntity entity) {
+        if (domain.getPassword() != null) {
+            entity.setPassword(domain.getPassword().getValue());
+        }
     }
 }

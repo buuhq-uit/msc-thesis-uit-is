@@ -10,12 +10,10 @@ import java.util.UUID;
 
 @Entity
 @Table(name = "users")
-@Getter
-@Setter
+@Getter @Setter
 public class UserJpaEntity {
 
     @Id
-    @Column(nullable = false)
     private UUID id;
 
     @ManyToMany(fetch = FetchType.LAZY)
@@ -27,5 +25,11 @@ public class UserJpaEntity {
     private Set<RoleJpaEntity> roles = new HashSet<>();
 
     @Column(nullable = false)
-    private boolean enabled = true;
+    private boolean enabled;
+
+    @Column(nullable = true)
+    private String password;
+
+    @Column(nullable = false)
+    private String authType;
 }

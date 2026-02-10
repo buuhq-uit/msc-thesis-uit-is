@@ -6,18 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="rest-api" />
+        <module name="shared" />
         <module name="application" />
-        <module name="common" />
         <module name="infrastructure" />
-        <module name="api-app" />
+        <module name="rest-api-app" />
         <module name="domain" />
         <module name="process-engine" />
-        <module name="api" />
         <module name="rule-engine" />
         <module name="integration-tests" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="api" target="21" />
+      <module name="api-app" target="21" />
+      <module name="common" target="21" />
       <module name="core" target="21" />
     </bytecodeTargetLevel>
   </component>
@@ -33,7 +36,10 @@
       <module name="infrastructure" options="-parameters" />
       <module name="integration-tests" options="-parameters" />
       <module name="process-engine" options="-parameters" />
+      <module name="rest-api" options="-parameters" />
+      <module name="rest-api-app" options="-parameters" />
       <module name="rule-engine" options="-parameters" />
+      <module name="shared" options="-parameters" />
     </option>
   </component>
 </project>
