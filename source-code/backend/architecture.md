@@ -3,7 +3,7 @@
 ```text
 
                   ┌──────────────────────┐      ┌──────────────────────┐ 
-                  │   services/rest      │      │   services/rest-app   │
+                  │   services/rest      │      │   services/rest-app  │
                   │  (controllers,..)    │<-----│  (Spring Boot App)   │
                   └─────────┬────────────┘      └─────────-────────────┘
                             │                             
