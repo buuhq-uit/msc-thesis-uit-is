@@ -20,8 +20,8 @@ public class ProcessEngineConfig {
         SpringProcessEngineConfiguration config = new SpringProcessEngineConfiguration();
         config.setDataSource(flowableDataSource);
         config.setTransactionManager(flowableTransactionManager);
-//        config.setDatabaseSchemaUpdate(ProcessEngineConfiguration.DB_SCHEMA_UPDATE_TRUE);
-        config.setDatabaseSchemaUpdate(ProcessEngineConfiguration.DB_SCHEMA_UPDATE_FALSE);
+        config.setDatabaseSchemaUpdate(ProcessEngineConfiguration.DB_SCHEMA_UPDATE_TRUE);
+//        config.setDatabaseSchemaUpdate(ProcessEngineConfiguration.DB_SCHEMA_UPDATE_FALSE);
         config.setAsyncExecutorActivate(true);
 //        config.setDeploymentResources(new ClassPathResource[] {
 //                new ClassPathResource("processes/sample-process.bpmn20.xml")
