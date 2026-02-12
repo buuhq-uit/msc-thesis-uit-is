@@ -1,5 +1,5 @@
 server:
-  port: 9091
+  port: 9092
 
 jwt:
   secret: super-secret-jwt-key-super-secret-jwt-key

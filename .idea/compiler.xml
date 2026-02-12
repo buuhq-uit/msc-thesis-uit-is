@@ -10,10 +10,10 @@
         <module name="shared" />
         <module name="application" />
         <module name="infrastructure" />
-        <module name="rest-api-app" />
         <module name="domain" />
         <module name="process-engine" />
         <module name="rule-engine" />
+        <module name="dpl-be-bootstrap" />
         <module name="integration-tests" />
       </profile>
     </annotationProcessing>
@@ -22,6 +22,8 @@
       <module name="api-app" target="21" />
       <module name="common" target="21" />
       <module name="core" target="21" />
+      <module name="dpl-be-app" target="21" />
+      <module name="rest-api-app" target="21" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -33,6 +35,8 @@
       <module name="common" options="-parameters" />
       <module name="core" options="-parameters" />
       <module name="domain" options="-parameters" />
+      <module name="dpl-be-app" options="-parameters" />
+      <module name="dpl-be-bootstrap" options="-parameters" />
       <module name="infrastructure" options="-parameters" />
       <module name="integration-tests" options="-parameters" />
       <module name="process-engine" options="-parameters" />

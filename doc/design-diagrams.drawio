@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.6 Chrome/140.0.7339.249 Electron/38.8.0 Safari/537.36" version="29.3.6" pages="2">
   <diagram id="dPm9ElqS9ZoCMkDsb4ry" name="backend-java">
-    <mxGraphModel dx="1426" dy="875" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="875" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -22,20 +22,20 @@
         <mxCell id="iZKEn56lN25Gr-b-wMdr-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;align=center;" value="" vertex="1">
           <mxGeometry height="60" width="160" x="80" y="146" as="geometry" />
         </mxCell>
-        <mxCell id="iZKEn56lN25Gr-b-wMdr-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="services/rest-api" vertex="1">
+        <mxCell id="iZKEn56lN25Gr-b-wMdr-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;" value="services/rest-api" vertex="1">
           <mxGeometry height="30" width="120" x="100" y="146" as="geometry" />
         </mxCell>
-        <mxCell id="iZKEn56lN25Gr-b-wMdr-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="modules/application" vertex="1">
+        <mxCell id="iZKEn56lN25Gr-b-wMdr-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;" value="modules/application" vertex="1">
           <mxGeometry height="30" width="120" x="220" y="248" as="geometry" />
         </mxCell>
-        <mxCell id="iZKEn56lN25Gr-b-wMdr-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="modules/shared" vertex="1">
+        <mxCell id="iZKEn56lN25Gr-b-wMdr-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;" value="modules/shared" vertex="1">
           <mxGeometry height="30" width="140" x="420" y="521" as="geometry" />
         </mxCell>
         <mxCell id="iZKEn56lN25Gr-b-wMdr-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;align=center;" value="" vertex="1">
-          <mxGeometry height="60" width="160" x="80" y="46" as="geometry" />
+          <mxGeometry height="60" width="180" x="69" y="46" as="geometry" />
         </mxCell>
-        <mxCell id="iZKEn56lN25Gr-b-wMdr-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="services/rest-api-app" vertex="1">
-          <mxGeometry height="30" width="140" x="90" y="46" as="geometry" />
+        <mxCell id="iZKEn56lN25Gr-b-wMdr-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;" value="services/dpl-be-bootstrap" vertex="1">
+          <mxGeometry height="30" width="150" x="82" y="46" as="geometry" />
         </mxCell>
         <mxCell id="iZKEn56lN25Gr-b-wMdr-12" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -58,7 +58,7 @@
         <mxCell id="iZKEn56lN25Gr-b-wMdr-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;align=center;" value="" vertex="1">
           <mxGeometry height="60" width="142" x="190" y="374" as="geometry" />
         </mxCell>
-        <mxCell id="iZKEn56lN25Gr-b-wMdr-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="modules/domain" vertex="1">
+        <mxCell id="iZKEn56lN25Gr-b-wMdr-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;" value="modules/domain" vertex="1">
           <mxGeometry height="30" width="140" x="170" y="521" as="geometry" />
         </mxCell>
         <mxCell id="iZKEn56lN25Gr-b-wMdr-17" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
@@ -73,13 +73,13 @@
             <mxPoint x="160" y="466" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iZKEn56lN25Gr-b-wMdr-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="modules/infrastructure" vertex="1">
+        <mxCell id="iZKEn56lN25Gr-b-wMdr-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;" value="modules/infrastructure" vertex="1">
           <mxGeometry height="30" width="140" x="190" y="374" as="geometry" />
         </mxCell>
-        <mxCell id="iZKEn56lN25Gr-b-wMdr-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="modules/process-engine" vertex="1">
+        <mxCell id="iZKEn56lN25Gr-b-wMdr-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;" value="modules/process-engine" vertex="1">
           <mxGeometry height="30" width="152" x="342" y="374" as="geometry" />
         </mxCell>
-        <mxCell id="iZKEn56lN25Gr-b-wMdr-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="modules/rule-engine" vertex="1">
+        <mxCell id="iZKEn56lN25Gr-b-wMdr-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;" value="modules/rule-engine" vertex="1">
           <mxGeometry height="30" width="140" x="504" y="374" as="geometry" />
         </mxCell>
         <mxCell id="iZKEn56lN25Gr-b-wMdr-22" edge="1" parent="1" style="shape=link;html=1;rounded=0;" value="">
@@ -125,10 +125,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="iZKEn56lN25Gr-b-wMdr-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Springboot 4 App" vertex="1">
-          <mxGeometry height="30" width="110" x="105" y="76" as="geometry" />
+          <mxGeometry height="30" width="110" x="104" y="76" as="geometry" />
         </mxCell>
-        <mxCell id="iZKEn56lN25Gr-b-wMdr-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;domain&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;→&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;depends on nothing&lt;/span&gt;&lt;/div&gt;&lt;div&gt;shared&amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;→ &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;depends on nothing&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;application &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;→ &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;domain, shared&lt;/div&gt;&lt;div&gt;infrastructure&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;→ &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;domain, shared&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;process-engine →&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;domain, shared&lt;/div&gt;&lt;div&gt;rule-engine &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;→&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;domain, shared&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;rest-api&amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;→ &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;application, shared&lt;/div&gt;&lt;div&gt;rest-api-app&amp;nbsp; &amp;nbsp; &amp;nbsp;→&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;rest-api&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="180" width="236" x="274" y="46" as="geometry" />
+        <mxCell id="iZKEn56lN25Gr-b-wMdr-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;domain&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;→&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;depends on nothing&lt;/span&gt;&lt;/div&gt;&lt;div&gt;shared&amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;→ &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;depends on nothing&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;application &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;→ &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;domain, shared&lt;/div&gt;&lt;div&gt;infrastructure&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;→ &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;domain, shared&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;process-engine →&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;domain, shared&lt;/div&gt;&lt;div&gt;rule-engine &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;→&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;domain, shared&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;rest-api&amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;→ &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;application, shared&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;dpl-be-bootstrap →&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;rest-api, infrastructure, process-engine, rule-engine&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="200" width="266" x="273" y="40" as="geometry" />
         </mxCell>
         <mxCell id="iZKEn56lN25Gr-b-wMdr-32" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="🔵&amp;nbsp;&lt;code data-start=&quot;3024&quot; data-end=&quot;3032&quot;&gt;domain&lt;/code&gt;&amp;nbsp;– CORE BUSINESS&lt;div&gt;&lt;br&gt;&lt;div&gt;- Trái tim hệ thống&lt;/div&gt;&lt;div&gt;- Định nghĩa:&lt;/div&gt;&lt;div&gt;&amp;nbsp; + Model (&lt;code data-start=&quot;3124&quot; data-end=&quot;3130&quot;&gt;User&lt;/code&gt;,&amp;nbsp;&lt;code data-start=&quot;3132&quot; data-end=&quot;3138&quot;&gt;Role)&amp;nbsp;&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; + Value Object (&lt;/span&gt;&lt;code data-start=&quot;3158&quot; data-end=&quot;3172&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;PasswordHash&lt;/code&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;,&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code data-start=&quot;3174&quot; data-end=&quot;3184&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;RoleName,...)&amp;nbsp;&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; + Port (&lt;/span&gt;&lt;code data-start=&quot;3196&quot; data-end=&quot;3206&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;UserPort&lt;/code&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;,&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;code data-start=&quot;3208&quot; data-end=&quot;3218&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;RolePort,..,)&lt;/code&gt;&lt;/div&gt;&lt;div&gt;- Không phụ thuộc module khác&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="130" width="280" x="79" y="752" as="geometry" />
@@ -145,8 +145,8 @@
         <mxCell id="iZKEn56lN25Gr-b-wMdr-36" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;code data-start=&quot;3260&quot; data-end=&quot;3273&quot;&gt;&lt;span style=&quot;font-family: Helvetica;&quot;&gt;🔵 ..&lt;/span&gt;&lt;/code&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;- ..&lt;/div&gt;&lt;div&gt;- ..&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="90" width="260" x="110" y="1030" as="geometry" />
         </mxCell>
-        <mxCell id="iZKEn56lN25Gr-b-wMdr-37" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;code data-start=&quot;3260&quot; data-end=&quot;3273&quot;&gt;&lt;span style=&quot;font-family: Helvetica;&quot;&gt;🔵&amp;nbsp;&lt;/span&gt;&lt;/code&gt;&lt;code data-start=&quot;3679&quot; data-end=&quot;3697&quot;&gt;services/rest-api-app&lt;/code&gt; – BOOTSTRAP&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;-&amp;nbsp;Spring Boot main&lt;/div&gt;&lt;div&gt;-&amp;nbsp;Wiring, config, không xử lý logic&lt;/div&gt;&lt;/div&gt;&lt;div&gt;- Phụ thuộc rest-app module&lt;/div&gt;" vertex="1">
-          <mxGeometry height="90" width="260" x="520" y="630" as="geometry" />
+        <mxCell id="iZKEn56lN25Gr-b-wMdr-37" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;code data-start=&quot;3260&quot; data-end=&quot;3273&quot;&gt;&lt;span style=&quot;font-family: Helvetica;&quot;&gt;🔵&amp;nbsp;&lt;/span&gt;&lt;/code&gt;&lt;code data-start=&quot;3679&quot; data-end=&quot;3697&quot;&gt;services/dpl-be-bootstap&lt;/code&gt;&amp;nbsp;– BOOTSTRAP&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;-&amp;nbsp;Spring Boot main&lt;/div&gt;&lt;div&gt;-&amp;nbsp;Wiring, config, không xử lý logic&lt;/div&gt;&lt;/div&gt;&lt;div&gt;- Phụ thuộc rest-api, infrastructure, process-engine, rule-engine modules&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="290" x="490" y="636" as="geometry" />
         </mxCell>
         <mxCell id="iZKEn56lN25Gr-b-wMdr-38" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;code data-start=&quot;3260&quot; data-end=&quot;3273&quot;&gt;&lt;span style=&quot;font-family: Helvetica;&quot;&gt;🔵 &lt;/span&gt;process-engine&lt;/code&gt;– FLOWABLE BPM&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;-&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Implement port (liên quan bpm)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;- Phụ thuộc domain module&lt;/div&gt;" vertex="1">
           <mxGeometry height="70" width="230" x="299" y="887" as="geometry" />

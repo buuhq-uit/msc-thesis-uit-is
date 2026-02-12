@@ -19,7 +19,8 @@
 
         <module>modules/shared</module>
         <module>services/rest-api</module>
-        <module>services/rest-api-app</module>
+
+        <module>services/dpl-be-bootstrap</module>
 
     </modules>
 

@@ -1,4 +1,4 @@
-package dpl.be.infrastructure.persistence.config;
+package dpl.be.bootstrap.config;
 
 import jakarta.persistence.EntityManagerFactory;
 import lombok.extern.slf4j.Slf4j;
@@ -25,7 +25,7 @@ import java.util.Map;
 @Configuration
 @EnableTransactionManagement
 @EnableJpaRepositories(
-        basePackages = "dpl.be.infrastructure.repository.platform",
+        basePackages = "dpl.be.infrastructure.persistence.jpa",
         entityManagerFactoryRef = "platformEntityManagerFactory",
         transactionManagerRef = "platformTransactionManager"
 )
@@ -45,6 +45,7 @@ public class PlatformDbConfig {
         return ds;
     }
 
+
     @Primary
     @Bean(name = "platformEntityManagerFactory")
     public LocalContainerEntityManagerFactoryBean platformEntityManagerFactory(
@@ -59,8 +60,7 @@ public class PlatformDbConfig {
 
         return builder
                 .dataSource(dataSource)
-//                .packages("vuxe.domain.ordering.entity", "vuxe.domain.common.entity")
-                .packages("smart.lending.infrastructure.entity")
+                .packages("dpl.be.infrastructure.persistence.entity")
                 .persistenceUnit("platform")
                 .properties(jpaProperties)
                 .build();
@@ -72,4 +72,6 @@ public class PlatformDbConfig {
     ) {
         return new JpaTransactionManager(emf);
     }
+
+
 }

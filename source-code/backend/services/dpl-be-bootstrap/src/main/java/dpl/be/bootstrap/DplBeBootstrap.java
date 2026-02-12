@@ -1,11 +1,11 @@
-package dpl.be.rest.app;
+package dpl.be.bootstrap;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication(scanBasePackages = "dpl.be")
-public class RestApp {
+public class DplBeBootstrap {
     public static void main(String[] args) {
-        SpringApplication.run(RestApp.class, args);
+        SpringApplication.run(DplBeBootstrap.class, args);
     }
 }
